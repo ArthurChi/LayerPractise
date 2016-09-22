@@ -10,7 +10,7 @@ import UIKit
 
 class StartTableViewController: UITableViewController {
 
-    let dataSource: Array<(String, UIViewController.Type)> = [("变色文字", ViewController.self)]
+    let dataSource: Array<(String, UIViewController.Type)> = [("变色文字", ViewController.self), ("波浪", WaveViewController.self)]
     
     override func viewDidLoad() {
         super.viewDidLoad()

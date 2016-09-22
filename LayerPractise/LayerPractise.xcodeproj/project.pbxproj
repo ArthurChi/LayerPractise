@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0C7DC01D93792F00880670 /* StartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C7DBF1D93792F00880670 /* StartTableViewController.swift */; };
+		2A0C7DC21D937C0000880670 /* WaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C7DC11D937C0000880670 /* WaveViewController.swift */; };
 		2A25E8201D92B7AF004DEDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25E81F1D92B7AF004DEDAB /* AppDelegate.swift */; };
 		2A25E8221D92B7AF004DEDAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A25E8211D92B7AF004DEDAB /* ViewController.swift */; };
 		2A25E8251D92B7AF004DEDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A25E8231D92B7AF004DEDAB /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A0C7DBF1D93792F00880670 /* StartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartTableViewController.swift; sourceTree = "<group>"; };
+		2A0C7DC11D937C0000880670 /* WaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveViewController.swift; sourceTree = "<group>"; };
 		2A25E81C1D92B7AF004DEDAB /* LayerPractise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayerPractise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A25E81F1D92B7AF004DEDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A25E8211D92B7AF004DEDAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				2A25E8261D92B7AF004DEDAB /* Assets.xcassets */,
 				2A25E8281D92B7AF004DEDAB /* LaunchScreen.storyboard */,
 				2A25E82B1D92B7AF004DEDAB /* Info.plist */,
+				2A0C7DBF1D93792F00880670 /* StartTableViewController.swift */,
+				2A0C7DC11D937C0000880670 /* WaveViewController.swift */,
 			);
 			path = LayerPractise;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A25E8221D92B7AF004DEDAB /* ViewController.swift in Sources */,
+				2A0C7DC21D937C0000880670 /* WaveViewController.swift in Sources */,
+				2A0C7DC01D93792F00880670 /* StartTableViewController.swift in Sources */,
 				2A25E8201D92B7AF004DEDAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				2A25E8301D92B7AF004DEDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
